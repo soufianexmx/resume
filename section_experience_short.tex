@@ -1,0 +1,51 @@
+% YAAC Another Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/yaac-another-awesome-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%Section: Work Experience at the top
+\sectionTitle{Experience}{\faSuitcase}
+%\renewcommand{\labelitemi}{$\bullet$}
+\begin{experiences}
+  \experience
+    {Current}   {Scala Engineer (Commercetools GmBH)}
+    {Nov 2019} {
+      \begin{itemize}
+        \item Implement GraphQL router service to federate requests in rust (first gateway was in JS)
+        \item Implement Sangria-federated to make it possible to use Apollo Federation with Sangria
+        \item Implement CircleCI pipeline to deploy services
+        \item Expand GraphQL API coverage
+        \item Expand event sourced aggregates
+        \item Migrate Cucumber tests (Ruby) to Cornichon (Scala).
+        \item Monitor production, DevOnCall, solve incidents, fix deployment pipeline
+      \end{itemize}
+    }{Scala, Rust, JS, Cats, ZIO, apollo-router, sangria, kubernetes, GCP, AWS, CircleCI, TeamCity, Cornichon, Humio}
+  \emptySeparator
+  \experience
+    {Sep}   {Freelancer (Innovative Wind Energy, Inc)}
+    {Mar 2019} {
+      \begin{itemize}
+        \item Using AWS Lambda to provide a custom runtime for executing R code that extracts a weather forecast from a grib2 file and stores it in an S3 bucket.
+        \item Using Lambda to synchronize files from sftp and REST Call API into S3 in a NodeJS environment.
+        \item Classification of the data uploaded into the S3 lake with Spark.
+      \end{itemize}
+    }{Spark, Scala, R, Spark SQL, Spark Streaming, Spark Structured Streaming, NodeJs, AWS Lamda, SNS, CloudWatch, S3, Glue, Athena, EMR, EC2}
+  \emptySeparator
+  \experience
+    {Current} {Research Project - A Reactive System for Big Trajectory Data Analytics}
+    {Nov 2017}{
+      \begin{itemize}
+        \item Follow an Algebra Driven Design approach to implement a trajectory framework which devs can use to create trajectory processing systems: time-framework (Haskell), trajectory-framework (Haskell),
+        \item Identify covid related fake news tweets,
+        \item	Processing Big Trajectory Data.
+        \item	Proposing new data mining techniques.
+        \item	Visualization of trajectories by leveraging D3.js and Mapbox GL.                                
+      \end{itemize}
+    }{Haskell, Scala, JS, Spark, Akka, Play Framework, MongoDB, Neo4J, HBase, Graph for Scala, fs2, Cats, ZIO, Kafka, ScalaMeter, YourKit, AngularJS, D3.js, Mapbox GL}
+  \emptySeparator
+\end{experiences}
